@@ -1,0 +1,80 @@
+<svg class="railroad-diagram" height="219" viewBox="0 0 782 219" width="782" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(.5 .5)">
+<style type="text/css">
+svg.railroad-diagram path {
+    stroke-width: 3;
+    stroke: black;
+    fill: rgba(0,0,0,0);
+}
+svg.railroad-diagram text {
+    font-family: "Consolas", "Monospace";
+    font-size: 14px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+svg.railroad-diagram text.diagram-text {
+    font-size: 12px;
+}
+svg.railroad-diagram text.diagram-arrow {
+    font-size: 16px;
+}
+svg.railroad-diagram text.label {
+    text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+    font-family: "Consolas", "Monospace";
+    font-size: 12px;
+    font-style: italic;
+}
+svg.railroad-diagram g.non-terminal text {
+    font-style: italic;
+}
+svg.railroad-diagram rect {
+    stroke-width: 3;
+    stroke: black;
+    fill: #ddeeff;
+}
+svg.railroad-diagram path.diagram-text {
+    stroke-width: 3;
+    stroke: black;
+    fill: white;
+    cursor: help;
+}
+svg.railroad-diagram g.diagram-text:hover path.diagram-text {
+    fill: #eee;
+}
+        </style><path d="M 20 30 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path><g>
+<path d="M40 40h0"></path><path d="M742 40h0"></path><path d="M40 40h20"></path><g>
+<path d="M60 40h120"></path><path d="M602 40h120"></path><g>
+<path d="M180 40h0"></path><path d="M424 40h0"></path><path d="M180 40h20"></path><g class="non-terminal">
+<path d="M200 40h48"></path><path d="M356 40h48"></path><rect height="22" width="108" x="248" y="29"></rect><a href="https://rspeele.gitbooks.io/rezoom-sql/doc/Language/Name.html#object-name"><text x="302" y="44">object-name</text><text x="302" y="44">object-name</text></a></g><path d="M404 40h20"></path><path d="M180 40a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path><g>
+<path d="M200 70h0"></path><path d="M404 70h0"></path><g class="terminal">
+<path d="M200 70h0"></path><path d="M228 70h0"></path><rect height="22" rx="10" ry="10" width="28" x="200" y="59"></rect><text x="214" y="74">(</text></g><path d="M228 70h10"></path><path d="M238 70h10"></path><g class="non-terminal">
+<path d="M248 70h0"></path><path d="M356 70h0"></path><rect height="22" width="108" x="248" y="59"></rect><a href="https://rspeele.gitbooks.io/rezoom-sql/doc/Language/SelectStmt.html#select-stmt"><text x="302" y="74">select-stmt</text><text x="302" y="74">select-stmt</text></a></g><path d="M356 70h10"></path><path d="M366 70h10"></path><g class="terminal">
+<path d="M376 70h0"></path><path d="M404 70h0"></path><rect height="22" rx="10" ry="10" width="28" x="376" y="59"></rect><text x="390" y="74">)</text></g></g><path d="M404 70a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path></g><g>
+<path d="M424 40h0"></path><path d="M602 40h0"></path><path d="M424 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path><g>
+<path d="M444 20h138"></path></g><path d="M582 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path><path d="M424 40h20"></path><g>
+<path d="M444 40h0"></path><path d="M582 40h0"></path><g>
+<path d="M444 40h0"></path><path d="M520 40h0"></path><path d="M444 40h20"></path><g>
+<path d="M464 40h36"></path></g><path d="M500 40h20"></path><path d="M444 40a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path><g class="terminal">
+<path d="M464 60h0"></path><path d="M500 60h0"></path><rect height="22" rx="10" ry="10" width="36" x="464" y="49"></rect><text x="482" y="64">AS</text></g><path d="M500 60a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path></g><path d="M520 40h10"></path><g class="non-terminal">
+<path d="M530 40h0"></path><path d="M582 40h0"></path><rect height="22" width="52" x="530" y="29"></rect><a href="https://rspeele.gitbooks.io/rezoom-sql/doc/Language/Name.html#name"><text x="556" y="44">name</text><text x="556" y="44">name</text></a></g></g><path d="M582 40h20"></path></g></g><path d="M722 40h20"></path><path d="M40 40a10 10 0 0 1 10 10v40a10 10 0 0 0 10 10"></path><g>
+<path d="M60 100h0"></path><path d="M722 100h0"></path><g class="non-terminal">
+<path d="M60 100h0"></path><path d="M160 100h0"></path><rect height="22" width="100" x="60" y="89"></rect><a href="https://rspeele.gitbooks.io/rezoom-sql/doc/Language/SelectStmt.html#table-expr"><text x="110" y="104">table-expr</text><text x="110" y="104">table-expr</text></a></g><path d="M160 100h10"></path><g>
+<path d="M170 100h0"></path><path d="M722 100h0"></path><path d="M170 100h20"></path><g>
+<path d="M190 100h0"></path><path d="M702 100h0"></path><g>
+<path d="M190 100h0"></path><path d="M392 100h0"></path><path d="M190 100h20"></path><g>
+<path d="M210 100h162"></path></g><path d="M372 100h20"></path><path d="M190 100a10 10 0 0 1 10 10v8a10 10 0 0 0 10 10"></path><g>
+<path d="M210 128h0"></path><path d="M372 128h0"></path><g class="terminal">
+<path d="M210 128h0"></path><path d="M262 128h0"></path><rect height="22" rx="10" ry="10" width="52" x="210" y="117"></rect><text x="236" y="132">LEFT</text></g><path d="M262 128h10"></path><g>
+<path d="M272 128h0"></path><path d="M372 128h0"></path><path d="M272 128a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path><g>
+<path d="M292 108h60"></path></g><path d="M352 108a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path><path d="M272 128h20"></path><g class="terminal">
+<path d="M292 128h0"></path><path d="M352 128h0"></path><rect height="22" rx="10" ry="10" width="60" x="292" y="117"></rect><text x="322" y="132">OUTER</text></g><path d="M352 128h20"></path></g></g><path d="M372 128a10 10 0 0 0 10 -10v-8a10 10 0 0 1 10 -10"></path><path d="M190 100a10 10 0 0 1 10 10v38a10 10 0 0 0 10 10"></path><g class="terminal">
+<path d="M210 158h51"></path><path d="M321 158h51"></path><rect height="22" rx="10" ry="10" width="60" x="261" y="147"></rect><text x="291" y="162">INNER</text></g><path d="M372 158a10 10 0 0 0 10 -10v-38a10 10 0 0 1 10 -10"></path></g><path d="M392 100h10"></path><g class="terminal">
+<path d="M402 100h0"></path><path d="M454 100h0"></path><rect height="22" rx="10" ry="10" width="52" x="402" y="89"></rect><text x="428" y="104">JOIN</text></g><path d="M454 100h10"></path><path d="M464 100h10"></path><g class="non-terminal">
+<path d="M474 100h0"></path><path d="M574 100h0"></path><rect height="22" width="100" x="474" y="89"></rect><a href="https://rspeele.gitbooks.io/rezoom-sql/doc/Language/SelectStmt.html#table-expr"><text x="524" y="104">table-expr</text><text x="524" y="104">table-expr</text></a></g><path d="M574 100h10"></path><path d="M584 100h10"></path><g class="terminal">
+<path d="M594 100h0"></path><path d="M630 100h0"></path><rect height="22" rx="10" ry="10" width="36" x="594" y="89"></rect><text x="612" y="104">ON</text></g><path d="M630 100h10"></path><path d="M640 100h10"></path><g class="non-terminal">
+<path d="M650 100h0"></path><path d="M702 100h0"></path><rect height="22" width="52" x="650" y="89"></rect><a href="https://rspeele.gitbooks.io/rezoom-sql/doc/Language/Expr.html#expr"><text x="676" y="104">expr</text><text x="676" y="104">expr</text></a></g></g><path d="M702 100h20"></path><path d="M170 100a10 10 0 0 1 10 10v68a10 10 0 0 0 10 10"></path><g>
+<path d="M190 188h182"></path><path d="M520 188h182"></path><g class="terminal">
+<path d="M372 188h0"></path><path d="M400 188h0"></path><rect height="22" rx="10" ry="10" width="28" x="372" y="177"></rect><text x="386" y="192">,</text></g><path d="M400 188h10"></path><path d="M410 188h10"></path><g class="non-terminal">
+<path d="M420 188h0"></path><path d="M520 188h0"></path><rect height="22" width="100" x="420" y="177"></rect><a href="https://rspeele.gitbooks.io/rezoom-sql/doc/Language/SelectStmt.html#table-expr"><text x="470" y="192">table-expr</text><text x="470" y="192">table-expr</text></a></g></g><path d="M702 188a10 10 0 0 0 10 -10v-68a10 10 0 0 1 10 -10"></path></g></g><path d="M722 100a10 10 0 0 0 10 -10v-40a10 10 0 0 1 10 -10"></path></g><path d="M 742 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path></g></svg>

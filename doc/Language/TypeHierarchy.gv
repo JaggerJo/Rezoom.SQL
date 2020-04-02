@@ -1,0 +1,32 @@
+// dot -Tsvg -O TypeHierarchy.gv
+digraph "Type Hierarchy" {
+  rankdir=BT
+  node[color=none,shape=rectangle,fontname=Consolas]
+
+  integral[label="<integral>",color=gray]
+  fractional[label="<fractional>",color=gray]
+  numeric[label="<numeric>",color=gray]
+  stringish[label="<stringish>",color=gray]
+  datetimeish[label="<datetimeish>",color=gray]
+  scalar[label="<scalar>",color=gray]
+  any[label="<any>",color=gray]
+
+  int16 -> integral
+  int32 -> int16
+  int64 -> int32
+  bool -> scalar
+  guid -> scalar
+  datetime -> datetimeish
+  datetimeoffset -> datetimeish
+  datetimeish -> scalar
+  float32 -> fractional
+  float64 -> float32
+  decimal -> fractional
+  binary -> stringish
+  string -> stringish
+  stringish -> scalar
+  fractional -> numeric
+  integral -> numeric
+  numeric -> scalar
+  scalar -> any
+}

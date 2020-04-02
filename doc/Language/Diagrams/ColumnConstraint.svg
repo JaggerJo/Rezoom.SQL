@@ -1,0 +1,65 @@
+<svg class="railroad-diagram" height="172" viewBox="0 0 778 172" width="778" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(.5 .5)">
+<style type="text/css">
+svg.railroad-diagram path {
+    stroke-width: 3;
+    stroke: black;
+    fill: rgba(0,0,0,0);
+}
+svg.railroad-diagram text {
+    font-family: "Consolas", "Monospace";
+    font-size: 14px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+svg.railroad-diagram text.diagram-text {
+    font-size: 12px;
+}
+svg.railroad-diagram text.diagram-arrow {
+    font-size: 16px;
+}
+svg.railroad-diagram text.label {
+    text-anchor: start;
+}
+svg.railroad-diagram text.comment {
+    font-family: "Consolas", "Monospace";
+    font-size: 12px;
+    font-style: italic;
+}
+svg.railroad-diagram g.non-terminal text {
+    font-style: italic;
+}
+svg.railroad-diagram rect {
+    stroke-width: 3;
+    stroke: black;
+    fill: #ddeeff;
+}
+svg.railroad-diagram path.diagram-text {
+    stroke-width: 3;
+    stroke: black;
+    fill: white;
+    cursor: help;
+}
+svg.railroad-diagram g.diagram-text:hover path.diagram-text {
+    fill: #eee;
+}
+        </style><path d="M 20 21 v 20 m 10 -20 v 20 m -10 -10 h 20.5"></path><g>
+<path d="M40 31h0"></path><path d="M252 31h0"></path><path d="M40 31h20"></path><g>
+<path d="M60 31h172"></path></g><path d="M232 31h20"></path><path d="M40 31a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path><g>
+<path d="M60 51h0"></path><path d="M232 51h0"></path><g class="terminal">
+<path d="M60 51h0"></path><path d="M160 51h0"></path><rect height="22" rx="10" ry="10" width="100" x="60" y="40"></rect><text x="110" y="55">CONSTRAINT</text></g><path d="M160 51h10"></path><path d="M170 51h10"></path><g class="non-terminal">
+<path d="M180 51h0"></path><path d="M232 51h0"></path><rect height="22" width="52" x="180" y="40"></rect><a href="https://rspeele.gitbooks.io/rezoom-sql/doc/Language/Name.html#name"><text x="206" y="55">name</text><text x="206" y="55">name</text></a></g></g><path d="M232 51a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path></g><g>
+<path d="M252 31h0"></path><path d="M738 31h0"></path><path d="M252 31h20"></path><g class="terminal">
+<path d="M272 31h189"></path><path d="M529 31h189"></path><rect height="22" rx="10" ry="10" width="68" x="461" y="20"></rect><text x="495" y="35">UNIQUE</text></g><path d="M718 31h20"></path><path d="M252 31a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path><g>
+<path d="M272 61h0"></path><path d="M718 61h0"></path><g class="terminal">
+<path d="M272 61h0"></path><path d="M348 61h0"></path><rect height="22" rx="10" ry="10" width="76" x="272" y="50"></rect><text x="310" y="65">PRIMARY</text></g><path d="M348 61h10"></path><path d="M358 61h10"></path><g class="terminal">
+<path d="M368 61h0"></path><path d="M412 61h0"></path><rect height="22" rx="10" ry="10" width="44" x="368" y="50"></rect><text x="390" y="65">KEY</text></g><path d="M412 61h10"></path><g>
+<path d="M422 61h0"></path><path d="M554 61h0"></path><path d="M422 61h20"></path><g>
+<path d="M442 61h92"></path></g><path d="M534 61h20"></path><path d="M422 61a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path><g>
+<path d="M442 81h0"></path><path d="M534 81h0"></path><path d="M442 81h20"></path><g class="terminal">
+<path d="M462 81h4"></path><path d="M510 81h4"></path><rect height="22" rx="10" ry="10" width="44" x="466" y="70"></rect><text x="488" y="85">ASC</text></g><path d="M514 81h20"></path><path d="M442 81a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path><g class="terminal">
+<path d="M462 111h0"></path><path d="M514 111h0"></path><rect height="22" rx="10" ry="10" width="52" x="462" y="100"></rect><text x="488" y="115">DESC</text></g><path d="M514 111a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path></g><path d="M534 81a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path></g><g>
+<path d="M554 61h0"></path><path d="M718 61h0"></path><path d="M554 61h20"></path><g>
+<path d="M574 61h124"></path></g><path d="M698 61h20"></path><path d="M554 61a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path><g class="terminal">
+<path d="M574 81h0"></path><path d="M698 81h0"></path><rect height="22" rx="10" ry="10" width="124" x="574" y="70"></rect><text x="636" y="85">AUTOINCREMENT</text></g><path d="M698 81a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path></g></g><path d="M718 61a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path><path d="M252 31a10 10 0 0 1 10 10v90a10 10 0 0 0 10 10"></path><g class="non-terminal">
+<path d="M272 141h141"></path><path d="M577 141h141"></path><rect height="22" width="164" x="413" y="130"></rect><a href="https://rspeele.gitbooks.io/rezoom-sql/doc/Language/CreateTableStmt.html#foreign-key-clause"><text x="495" y="145">foreign-key-clause</text><text x="495" y="145">foreign-key-clause</text></a></g><path d="M718 141a10 10 0 0 0 10 -10v-90a10 10 0 0 1 10 -10"></path></g><path d="M 738 31 h 20 m -10 -10 v 20 m 10 -20 v 20"></path></g></svg>
