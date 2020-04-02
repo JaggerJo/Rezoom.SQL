@@ -1,0 +1,6 @@
+{
+  "backend": "tsql",
+  "optionals":  "f#",
+  "migrations": "./Migrations",
+  "connectionname": "rzsql"
+}

@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{C1
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Examples.SimpleSqlite", "Examples.SimpleSqlite\Examples.SimpleSqlite.fsproj", "{BCFCC5AE-B231-4193-9132-ADCCD8D22F47}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Examples.DefectHandling", "Examples.DefectHandling\Examples.DefectHandling.fsproj", "{9583C580-D1A2-4886-8E0C-7F6DA778C9F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{BCFCC5AE-B231-4193-9132-ADCCD8D22F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCFCC5AE-B231-4193-9132-ADCCD8D22F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCFCC5AE-B231-4193-9132-ADCCD8D22F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9583C580-D1A2-4886-8E0C-7F6DA778C9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9583C580-D1A2-4886-8E0C-7F6DA778C9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9583C580-D1A2-4886-8E0C-7F6DA778C9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9583C580-D1A2-4886-8E0C-7F6DA778C9F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B6C3585C-55C0-4276-871D-9733E11E3513} = {3CFAC282-AFAA-4B7A-879F-D2BDF9EC631B}
 		{BCFCC5AE-B231-4193-9132-ADCCD8D22F47} = {C1811413-FA77-4C5F-9FBE-450EDBB01253}
+		{9583C580-D1A2-4886-8E0C-7F6DA778C9F6} = {C1811413-FA77-4C5F-9FBE-450EDBB01253}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3984727B-D7F5-4A1D-B438-1A4A1EB6A711}
